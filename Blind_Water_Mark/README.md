@@ -3,24 +3,17 @@
 盲水印 by python
 From chishaxie/BlindWaterMark
 
-### 文件说明
-
-* bwm.py 程序文件
-* hui.png 无水印的原图
-* wm.png 水印图
-* hui_with_wm.png 有盲水印的图
-* wm_from_hui.png 反解出来的水印图
 
 ### Demo
 
 合成盲水印图
 
-    python bwm.py encode hui.png wm.png hui_with_wm.png
+    python bwm.py encode 1483054559.png 选区_008.png image_enc.png
 
 
 提取图中的盲水印 (需要原图)
 
-    python bwm.py decode hui.png hui_with_wm.png wm_from_hui.png
+    python bwm.py decode 1483054559.png image_enc.png waterMark.png
 
 
 ### Usage
